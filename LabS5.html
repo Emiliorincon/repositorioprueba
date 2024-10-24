@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLICITUD DE BECA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulario solicitud de beca Unisam</h1>
+    <div>
+        <form action="#" method="post">
+            <label for="nombre">*Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">*Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="celular">*Número de celular:</label>
+            <input type="number" id="celular" name="celular" required="">
+            <label for="date">Fecha de nacimiento:</label>
+            <input type="date" id="date" name="date">
+            <label for="city">Ciudad:</label>
+            <select name="city" id="city">
+                <option value="seleccione" selected disabled>Selecciona tu ciudad</option>
+                <option value="Sa">Santa Marta</option>
+                <option value="Ba">Barranquilla</option>
+                <option value="Ca">Cartagena</option>
+                <option value="Va">Valledupar</option>
+            </select>
+            <br><br>
+            <label for="mensaje">Describa su solicitud</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+
+            <br><br>
+            <fieldset>
+                <legend>Crear datos de acceso</legend>
+                *Usuario:
+                <br><input type="text" id="name" name="name" required>
+                <br><br>
+                *Contraseña: <br><input type="password" id="Contraseña" name="Contraseña" required minlength="8"
+                    pattern="[A-Z a-z 0-9]+" maxlength="12">
+
+            </fieldset>
+            <br>
+
+            <button type="submit" name="" value="Enviar">Enviar</button>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
